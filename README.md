@@ -45,8 +45,8 @@ $$\int_{-\infty}^{\infty} |\psi(x)|^2 dx \approx \sum_{i} |\psi_i|^2 \Delta x = 
 
 | Phase | Milestone | Focus Area | Status |
 | :--- | :--- | :--- | :--- |
-| **Week 1** | **State Representation & Spatial Grid** | Spatial grid discretization ($\Delta x$), complex field representation, normalization, and phase space visualization. | ✅ Completed |
-| **Week 2** | **Time Evolution & Free Propagation** | Finite-difference kinetic operator matrix, time step ($\Delta t$), and implementing a unitary time-stepper (Crank-Nicolson / Split-Operator). | 🔄 Upcoming |
+| **Week 1** | **State Representation & Spatial Grid** | Spatial grid discretization ($\Delta x$), complex field representation, normalization, and phase space visualization. | 🔄 Upcoming |
+| **Week 2** | **Time Evolution & Free Propagation** | Finite-difference kinetic operator matrix, time step ($\Delta t$), and implementing a unitary time-stepper (Crank-Nicolson / Split-Operator). | ⏳ Planned |
 | **Week 3** | **Quantum Barrier & Tunneling Dynamics** | Introducing arbitrary rectangular/delta potentials, scattering dynamics, and computing transmission ($T$) vs. reflection ($R$). | ⏳ Planned |
 | **Week 4** | **Wave Packet Dispersion & Analysis** | Quantitative validation of Heisenberg uncertainty relation, wave packet dispersion analysis, and interactive animations. | ⏳ Planned |
 
