@@ -25,12 +25,21 @@ To represent the continuous function $\psi(x)$ numerically, the 20-unit domain i
 
 $$\Delta x = \frac{x_{\max} - x_{\min}}{N - 1}$$
 
-Selecting the appropriate resolution involves a critical computational trade-off:
-* **Under-sampling (Too few points / Large $\Delta x$):**
-  * Violates the Nyquist-Shannon sampling limit relative to the de Broglie wavelength ($\Delta x \not\ll \lambda$).
-  * Causes numerical aliasing, geometric distortion, and coarse, jagged representations that miscalculate wave derivatives ($\frac{\partial^2 \psi}{\partial x^2}$).
-* **Over-sampling (Too many points / Extremely small $\Delta x$):**
-  * Demands excessive processor memory (RAM) and drastically increases execution time.
-  * In explicit time-stepping schemes, very small $\Delta x$ requires a punishingly small time-step $\Delta t$ to preserve numerical stability.
-
 **Initial Choice:** We set $N = 1000$ points ($\Delta x \approx 0.02$). This ensures smooth spatial derivatives while maintaining lightweight, real-time performance.
+
+## Step 2: Initial Wave Packet Formulation ($\psi(x, 0)$)
+
+### 1. Physical Parameters
+* **$x_0 = -5.0$ (Center Position):** Sets the initial expected position $\langle x \rangle$ on the left side of the domain.
+* **$\sigma = 1.0$ (Spatial Width):** Controls spatial uncertainty ($\Delta x$); determines how localized or spread out the particle is.
+* **$k_0 = 5.0$ (Wave Number):** Controls central momentum ($\langle p \rangle = \hbar k_0$); positive sign dictates rightward motion.
+
+---
+
+### 2. Analytical Expression
+The wave packet is constructed as a localized Gaussian envelope modulated by a plane wave phase:
+
+$$\psi(x, 0) = \exp\left( -\frac{(x - x_0)^2}{2\sigma^2} \right) \cdot \exp(i k_0 x)$$
+
+* **Gaussian Envelope:** Confines the particle within a localized region so it does not extend infinitely.
+* **Complex Phase Factor ($e^{i k_0 x}$):** Encodes kinetic energy and propagation direction using Euler's formula ($\cos(k_0 x) + i \sin(k_0 x)$).
