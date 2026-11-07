@@ -42,4 +42,4 @@ The wave packet is constructed as a localized Gaussian envelope modulated by a p
 $$\psi(x, 0) = \exp\left( -\frac{(x - x_0)^2}{2\sigma^2} \right) \cdot \exp(i k_0 x)$$
 
 * **Gaussian Envelope:** Confines the particle within a localized region so it does not extend infinitely.
-* **Complex Phase Factor ($e^{i k_0 x}$):** Encodes kinetic energy and propagation direction using Euler's formula ($\cos(k_0 x) + i \sin(k_0 x)$).
+* **Complex Phase Factor ($e^{i k_0 x}$):** Encodes kinetic energy and propagation direction using Euler's formula
