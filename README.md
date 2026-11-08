@@ -19,5 +19,5 @@ Now I will normalize the wave equation to probability density
 ### Total Area
 
 $$
-total_area = \int_{-\infty}^{\infty} |\psi|^2\,dx
+\text{Total Area} = \int_{-\infty}^{\infty} |\psi(x)|^2 \, dx
 $$
