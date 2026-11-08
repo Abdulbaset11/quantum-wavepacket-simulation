@@ -10,6 +10,6 @@ sigma = 1.0
 # Wave function
 psi = np.exp(-((x - x0) ** 2) / 2 * sigma ** 2) * np.exp(1j * k0 * x)
 
-
+# Ploting wave function real part only
 plt.plot(x, np.real(psi))
 plt.show()
