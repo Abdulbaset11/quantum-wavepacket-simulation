@@ -11,5 +11,5 @@ sigma = 1.0
 psi = np.exp(-((x - x0) ** 2) / 2 * sigma ** 2) * np.exp(1j * k0 * x)
 
 
-plt.plot(x, np.real(psi) ** 2)
+plt.plot(x, np.real(psi))
 plt.show()
