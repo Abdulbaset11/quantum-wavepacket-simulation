@@ -11,3 +11,12 @@ I will begin by drawing a number line to represent this wave function, and subse
 $$
 \psi(x) = e^{-\frac{(x-x_0)^2}{2\sigma^2}} \cdot e^{ik_0x}
 $$
+
+---
+
+Now I will normalize the wave equation to probability density
+
+### Total Area
+
+$$
+total_area = \int_{-\infty}^{\infty} |\psi|^2\,dx
