@@ -20,3 +20,4 @@ Now I will normalize the wave equation to probability density
 
 $$
 total_area = \int_{-\infty}^{\infty} |\psi|^2\,dx
+$$
