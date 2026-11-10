@@ -31,5 +31,5 @@ $$
 
 ### Probability
 $$
-Probability = |A \cdot \psi(x)|^2 = A^2 \cdot |\psi(x)|^2 = A^2 \cdot e^-\frac{x-x_0}{\sigma^2}
+Probability = |A \cdot \psi(x)|^2 = A^2 \cdot |\psi(x)|^2 = A^2 \cdot e^{-\frac{{x-x_0}^2}{\sigma^2}}
 $$
