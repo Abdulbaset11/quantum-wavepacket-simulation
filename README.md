@@ -21,3 +21,10 @@ Now I will normalize the wave equation to probability density
 $$
 \text{Total Area} = \int_{-\infty}^{\infty} |\psi(x)|^2 ~ dx
 $$
+
+
+### Parameter A
+
+$$
+A = \frac{1}{\sqrt{Total Area}}
+$$
