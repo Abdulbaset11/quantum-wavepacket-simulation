@@ -28,3 +28,8 @@ $$
 $$
 A = \frac{1}{\sqrt{Total Area}}
 $$
+
+### Probability
+$$
+Probability = |A \cdot \psi(x)|^2 = A^2 \cdot |\psi(x)|^2 = A^2 \frac{x-x_0}{\sigma^2}
+$$
