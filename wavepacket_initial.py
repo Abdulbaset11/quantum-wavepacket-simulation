@@ -1,9 +1,13 @@
 import numpy as np
 import matplotlib.pyplot as plt
+import time
 
 # Parametrs of the wave function
-x = np.linspace(-10, 10, 1000)
-x0 = -5.0
+x = np.linspace(0, 20, 1000)
+x00 = 5.0
+start_time = time.perf_counter()
+t = time.perf_counter() - start_time
+x0 = x00 + (0.579) * t
 k0 = 5.0
 sigma = 1.0
 
@@ -24,6 +28,13 @@ psi_norm = psi * a
 
 # Calculate probabilty
 proablity = np.abs(psi_norm)**2
+
+
+
+
+
+
+
 
 # Ploting Probablity of electron at t = 0
 plt.plot(x, proablity)
