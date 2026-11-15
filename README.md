@@ -12,6 +12,7 @@ $$
 $$
 f(x) = e^{ikx}
 $$
+
 $$
 e^{ikx} = cos(kx) + i sin(kx)
-
+$$
