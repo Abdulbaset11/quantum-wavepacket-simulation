@@ -25,3 +25,8 @@ $$
 - $k_0$
 - $\sigma$
 - $x_0$
+
+### Wave Function
+$$
+\psi(x) = e^{-\frac{(x-x_0)^2}{2\sigma^2}} \cdot f(x) = e^{ikx}
+$$
