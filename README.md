@@ -31,21 +31,45 @@ $$
 \psi(x) = e^{-\frac{(x-x_0)^2}{2\sigma^2}} \cdot e^{ikx}
 $$
 
-نحتاج الى تطبيع الدالة الموجية بأخذ تربيع مقدارها ثم حساب المساحة كاملة تحت منحنى مربع المقدار ثم حساب المعامل A الذي معناه اننا اذا ضربناه في مساحة مربع المقدار سنحول الناتج الكلي إلى 1 وهي المساحة التي تمثل تواجد الالكترون حتى يكون الناتج يساوي 100% 
+## Normalization
+
+> We need to normalize the wave function. First, we calculate the squared magnitude of the wave function. Then, we calculate the total area under the curve.
+
+After that, we calculate the factor **A**. When we multiply the wave function by **A**, the total area becomes **1**.
+
+This means the total probability of finding the electron in the full region is **100%**.
+
+---
 
 ### Total Area
+
 $$
-S = \int | \psi |^2 dx
+S = \int |\psi|^2 \, dx
 $$
 
-### Parameter A
+### Factor A
+
 $$
-A = \frac{1}{\sqrt(S)}
+A = \frac{1}{\sqrt{S}}
 $$
 
-### Normaliztion Wave Function
-$$
-\int |A\psi(x)|^2 dx = 1
-$$ 
+### Normalized Wave Function
 
-بالنسبة ل dx فهو اصغر عرض ممكن على المحور فلو كان على المحور نقطتين 1 و 2 وكان هناك 50 نقطة بين 1 و 2 ف العرض dx سيكون 0.02 لأن النقطة التالية هي 1.02
+$$
+\int |A\psi(x)|^2 \, dx = 1
+$$
+
+---
+
+### Step Size (dx)
+
+`dx` is the distance between two neighboring points on the x-axis.
+
+**Example:**
+
+If the distance from `x = 1` to `x = 2` is divided into **50 equal parts**, then:
+
+- `dx = 0.02`
+- The next point after `1` is `1.02`.
+
+---
