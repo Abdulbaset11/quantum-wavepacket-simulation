@@ -8,7 +8,7 @@ x = np.linspace(0,20,1000)
 dx = x[1] - x[0]
 x_0 = 5.0
 sigma = 1.0
-k_0 = 5.0
+k_0 = 3.0
 
 
 psi = np.exp(-(x-x_0)**2 / (2*sigma**2)) * np.exp(1j * k_0 * x)
