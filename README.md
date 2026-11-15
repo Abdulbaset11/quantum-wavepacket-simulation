@@ -1,35 +1,9 @@
 # The goal
 
-> This project is to visualize a scenario in which an electron, fired from a source, moves toward an energy barrier. The exact position of the electron is unknown; instead, there is a probability of finding it at any given location, which is represented by a wave function.
+> الهدف من المشروع هذا، هو تخيل إلكترون ينطلق من مصدر إلى اتجاه حاجز طاقي، الإلكترون ليس معلوم مكانه بالتحديد لذا في المشروع هذا راح نرسم كثافة احتمال الالكترون من خلال دالة غاوس ودالة الطور للإلكترون ثم من خلال معادلة شرودنجر سنحاول جعل الإلكترون يتحرك مع مرور الزمن بالحاجز الطاقي ونرى الأثر الذي يحدث لتلك الموجة اثناء وبعد اصطدامها بالحاجز الطاقي
 
 ---
 
-I will begin by drawing a number line to represent this wave function, and subsequently, I will refine the wave function so that it evolves in a way that mirrors the actual motion of the electron.
-
-### The wave equation
-
 $$
-\psi(x) = e^{-\frac{(x-x_0)^2}{2\sigma^2}} \cdot e^{ik_0x}
-$$
-
----
-
-Now I will normalize the wave equation to probability density
-
-### Total Area
-
-$$
-\text{Total Area} = \int_{-\infty}^{\infty} |\psi(x)|^2 ~ dx
-$$
-
-
-### Parameter A
-
-$$
-A = \frac{1}{\sqrt{\text{Total Area}}}
-$$
-
-### Probability
-$$
-\text{Probability} = |A \cdot \psi(x)|^2 = A^2 \cdot |\psi(x)|^2 = A^2 \cdot e^{-\frac{(x-x_0)^2}{\sigma^2}}
+G(x) = e^{-\frac{(x-x_0)^2}{2\sigma**2}}
 $$
