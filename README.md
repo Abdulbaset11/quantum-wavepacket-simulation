@@ -10,7 +10,8 @@ $$
 
 ### دالة الطور
 $$
-f(x) = e^ikx
-e^ikx = cos(kx) + i sin(kx)
+f(x) = e^{ikx}
 $$
+$$
+e^{ikx} = cos(kx) + i sin(kx)
 
