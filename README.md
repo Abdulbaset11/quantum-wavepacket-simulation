@@ -1,23 +1,27 @@
-# The goal
+# The Goal
 
-> الهدف من المشروع هذا، هو تخيل إلكترون ينطلق من مصدر إلى اتجاه حاجز طاقي، الإلكترون ليس معلوم مكانه بالتحديد لذا في المشروع هذا راح نرسم كثافة احتمال الالكترون من خلال دالة غاوس ودالة الطور للإلكترون ثم من خلال معادلة شرودنجر سنحاول جعل الإلكترون يتحرك مع مرور الزمن بالحاجز الطاقي ونرى الأثر الذي يحدث لتلك الموجة اثناء وبعد اصطدامها بالحاجز الطاقي
+> The goal of this project is to imagine an electron moving from a source toward a potential barrier. We do not know the exact position of the electron, so we will plot its probability density using a Gaussian function and a phase function. Then, we will use the Schrödinger equation to simulate how the electron changes with time as it reaches the potential barrier. We want to see what happens to the wave during and after it hits the barrier.
 
 ---
-### دالة غاوس
+
+### Gaussian Function
+
 $$
 G(x) = e^{-\frac{(x-x_0)^2}{2\sigma^2}}
 $$
 
-### دالة الطور
+### Phase Function
+
 $$
 f(x) = e^{ikx}
 $$
 
 $$
-e^{ikx} = cos(kx) + i sin(kx)
+e^{ikx} = \cos(kx) + i\sin(kx)
 $$
 
-### العوامل
-k0
-$ \sigma $
-$ x_0 $
+### Parameters
+
+- $k_0$
+- $\sigma$
+- $x_0$
